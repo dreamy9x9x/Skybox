@@ -1,5 +1,6 @@
--- made by deivy
-
+-- ☠️ modified by dreamy & bazuka
+-- ☁️ original by deivy & kaiser
+-- ✨️ ts is not the original skybox, its flashbang
 local args = {
     {
         100839513065432
@@ -78,5 +79,5 @@ local function LoadTrack(id)
 end
 
 
-local EmoteId = 101852027997337
+local EmoteId = 70883871260184
 LoadTrack(EmoteId)
