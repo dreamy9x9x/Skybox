@@ -19,6 +19,10 @@ local Services = setmetatable({}, {
         return cloneref(game:GetService(name))
     end
 })
+local args = {
+	135942005436720
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Wear"):InvokeServer(unpack(args))
 
 local Players = Services.Players
 local player = Players.LocalPlayer
